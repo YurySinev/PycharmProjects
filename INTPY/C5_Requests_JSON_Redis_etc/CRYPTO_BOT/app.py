@@ -1,4 +1,3 @@
-import imp
 import telebot
 import requests
 import json
