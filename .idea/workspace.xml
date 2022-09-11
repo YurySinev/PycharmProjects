@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69b1561c-f546-4fc1-917f-b89eceb341cf" name="Changes" comment="Мои учебно-тренировочные файлы по курсу Интенсив Python">
-      <change afterPath="$PROJECT_DIR$/INTPY/C5_Requests_JSON_Redis_etc/CRYPTO_BOT/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/INTPY/C5_Requests_JSON_Redis_etc/CRYPTO_BOT/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/INTPY/C5_Requests_JSON_Redis_etc/CRYPTO_BOT/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/INTPY/C5_Requests_JSON_Redis_etc/CRYPTO_BOT/app.py" afterDir="false" />
     </list>
@@ -223,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662897381724</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Мои учебно-тренировочные файлы по курсу Интенсив Python">
+      <created>1662904185390</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662904185390</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
