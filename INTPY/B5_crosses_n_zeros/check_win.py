@@ -9,9 +9,9 @@ def check_win():
         for c in cord:
             symbols.append(field[c[0]][c[1]])
         if symbols == ["X", "X", "X"]:
-            print("Выиграл X!!!")
+            print("\t\t\tВыиграл X!!!")
             return True
         if symbols == ["0", "0", "0"]:
-            print("Выиграл 0!!!")
+            print("\t\t\tВыиграл 0!!!")
             return True
     return False

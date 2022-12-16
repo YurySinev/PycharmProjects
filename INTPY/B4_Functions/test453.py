@@ -11,31 +11,26 @@
 #       def f(n):
 #           return n * 123456789
 
-def my_decorator(fn): # эта функция тут вообще ни к чему, не используется
-    print("Этот код будет выведен один раз в момент декорирования функции")
-    def wrapper(*args, **kwargs):
-        print('Этот код будет выполняться перед каждым вызовом функции')
-        result = fn(*args, **kwargs)
-        print('Этот код будет выполняться после каждого вызова функции')
-        return result
+def cache(func):  # вот эта функция-декоратор участвует в решении задачи
+    cache_dict = {}
+
+    def wrapper(num):
+        nonlocal cache_dict
+        if num not in cache_dict:
+            cache_dict[num] = func(num)
+            print(f"Добавление результата в кэш: {cache_dict[num]}")
+        else:
+            print(f"Возвращение результата из кэша: {cache_dict[num]}")
+        print(f"Кэш {cache_dict}")
+        return cache_dict[num]
+
     return wrapper
 
-def cache(func):    # вот эта функция-декоратор участвует в решении задачи
-   cache_dict = {}
-   def wrapper(num):
-       nonlocal cache_dict
-       if num not in cache_dict:
-           cache_dict[num] = func(num)
-           print(f"Добавление результата в кэш: {cache_dict[num]}")
-       else:
-           print(f"Возвращение результата из кэша: {cache_dict[num]}")
-       print(f"Кэш {cache_dict}")
-       return cache_dict[num]
-   return wrapper
 
 @cache
 def f(n):
-   return n * 123456789
+    return n * 123456789
+
 
 f(9)
 f(2)
@@ -43,5 +38,5 @@ f(8)
 f(2)
 f(7)
 f(8)
-
-
+f(8)
+f(2)

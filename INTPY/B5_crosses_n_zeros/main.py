@@ -11,9 +11,9 @@ while True:
     count += 1
     playground()
     if count % 2 == 1:
-        print(" Ходит крестик!")
+        print("\tХодит крестик!")
     else:
-        print(" Ходит нолик!")
+        print("\tХодит нолик!")
 
     x, y = play()
 
@@ -26,5 +26,5 @@ while True:
         break
 
     if count == 9:
-        print(" Ничья!")
+        print("\t\tНичья!")
         break

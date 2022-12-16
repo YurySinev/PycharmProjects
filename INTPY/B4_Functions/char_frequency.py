@@ -1,6 +1,6 @@
 from pushkin import pushkin
 
-
+# text = pushkin
 def char_frequency(text):
     text = text.lower()  # привели все к нижнему регистру
     text = text.replace(" ", "")  # убрали пробелы
@@ -19,4 +19,4 @@ def char_frequency(text):
         print(f"Символ {char} встречается {cnt} раз")
 
 
-# char_frequency(pushkin)
+char_frequency(pushkin)

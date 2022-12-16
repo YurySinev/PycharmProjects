@@ -10,3 +10,10 @@ print(len(S))
 text = input("Введите текст:")
 unique = set(text)
 print("Количество уникальных символов: ", len(unique))
+
+# мое решение:
+L = list(set(list(input())))
+print(L)
+# а вот так даже еще короче:
+S = set(list(input()))
+print("Количество уникальных символов", len(S))
