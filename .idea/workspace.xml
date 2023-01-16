@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69b1561c-f546-4fc1-917f-b89eceb341cf" name="Changes" comment="Мои учебно-тренировочные файлы по курсу Интенсив Python">
-      <change afterPath="$PROJECT_DIR$/INTPY/B3_Cycles/blank1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/INTPY/B5_crosses_n_zeros/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/INTPY/B5_crosses_n_zeros/crosses_n_zeros/check_win.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/INTPY/B5_crosses_n_zeros/crosses_n_zeros/greeting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/INTPY/B5_crosses_n_zeros/crosses_n_zeros/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/INTPY/B5_crosses_n_zeros/crosses_n_zeros/play.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/INTPY/B5_crosses_n_zeros/crosses_n_zeros/playground.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/INTPY/B5_crosses_n_zeros/notes_on_crosses_zeros.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTPY/B5_crosses_n_zeros/check_win.py" beforeDir="false" afterPath="$PROJECT_DIR$/INTPY/B5_crosses_n_zeros/check_win.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTPY/B5_crosses_n_zeros/greeting.py" beforeDir="false" afterPath="$PROJECT_DIR$/INTPY/B5_crosses_n_zeros/greeting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTPY/B5_crosses_n_zeros/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/INTPY/B5_crosses_n_zeros/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INTPY/B5_crosses_n_zeros/playground.py" beforeDir="false" afterPath="$PROJECT_DIR$/INTPY/B5_crosses_n_zeros/playground.py" afterDir="false" />
-    </list>
+    <list default="true" id="69b1561c-f546-4fc1-917f-b89eceb341cf" name="Changes" comment="Мои учебно-тренировочные файлы по курсу Интенсив Python" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,6 +53,7 @@
       <recent name="D:\Git\PycharmProjects\INTPY\C1_Intro_to_OOP" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Git\PycharmProjects\Exercises" />
       <recent name="D:\Git\PycharmProjects\INTPY\B5_crosses_n_zeros" />
       <recent name="D:\Git\PycharmProjects\INTPY\C2_OOP_continue" />
       <recent name="D:\Git\PycharmProjects\INTPY\B2_Data_types" />
@@ -254,7 +241,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671183098690</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Мои учебно-тренировочные файлы по курсу Интенсив Python">
+      <created>1673898111866</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1673898111866</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Мои учебно-тренировочные файлы по курсу Интенсив Python">
+      <created>1673898315927</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1673898315927</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
