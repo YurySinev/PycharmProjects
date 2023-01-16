@@ -7,13 +7,13 @@ from check_win import check_win
 greeting()
 
 count = 0
-while True:2
+while True:
     count += 1
     playground()
     if count % 2 == 1:
-        print("\tХодит крестик!")
+        print("\tХодят крестики!")
     else:
-        print("\tХодит нолик!")
+        print("\tХодят нолики!")
 
     x, y = play()
 
@@ -22,7 +22,7 @@ while True:2
     else:
         field[x][y] = "0"
 
-    if check_win():
+    if count >= 5 and check_win(): # раньше пятого хода нет смысла проверять победителя
         break
 
     if count == 9:
