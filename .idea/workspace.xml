@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69b1561c-f546-4fc1-917f-b89eceb341cf" name="Changes" comment="Мои учебно-тренировочные файлы по курсу Интенсив Python" />
+    <list default="true" id="69b1561c-f546-4fc1-917f-b89eceb341cf" name="Changes" comment="Мои учебно-тренировочные файлы по курсу Интенсив Python">
+      <change afterPath="$PROJECT_DIR$/Exercises/casefold.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercises/eval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercises/python.org/SimplePrograms_18.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercises/python.org/SimplePrograms_33.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercises/python.org/examples.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercises/stack_from_sololearn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/INTPY/B2_Data_types/blank1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/INTPY/C4_Algorythms_Data_structures/queue operations" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/INTPY/C4_Algorythms_Data_structures/stack operations" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/INTPY/C4_Algorythms_Data_structures/test4.4.1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/INTPY/C4_Algorythms_Data_structures/test4.4.3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/INTPY/C4_Algorythms_Data_structures/test4.4.5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/INTPY/C4_Algorythms_Data_structures/test4.4.6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/INTPY/B3_Conditions/test5.py" beforeDir="false" afterPath="$PROJECT_DIR$/INTPY/B3_Conditions/test5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/INTPY/B3_Conditions/tests4.py" beforeDir="false" afterPath="$PROJECT_DIR$/INTPY/B3_Conditions/tests4.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +51,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Git/PycharmProjects/INTPY/B5_crosses_n_zeros/crosses_n_zeros&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
@@ -60,8 +77,8 @@
       <recent name="D:\Git\PycharmProjects\INTPY\C1_Intro_to_OOP" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (2)">
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.tests4">
+    <configuration name="blank" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -69,11 +86,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/INTPY/B5_crosses_n_zeros/crosses_n_zeros" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/INTPY/B2_Data_types" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/INTPY/B5_crosses_n_zeros/crosses_n_zeros/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/INTPY/B2_Data_types/blank.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -82,7 +99,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="blank1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -90,11 +107,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercises/crosses_n_zeros" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/INTPY/B2_Data_types" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercises/crosses_n_zeros/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/INTPY/B2_Data_types/blank1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -103,7 +120,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="hello" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -111,11 +128,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/INTPY/B5_crosses_n_zeros" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Exercises" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/INTPY/B5_crosses_n_zeros/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Exercises/hello.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -124,7 +141,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="notes_on_crosses_zeros" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -132,11 +149,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/INTPY/B5_crosses_n_zeros" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/INTPY/B3_Conditions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/INTPY/B5_crosses_n_zeros/notes_on_crosses_zeros.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/INTPY/B3_Conditions/test5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,7 +162,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="notes_on_crosses_zeros" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="tests4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -153,32 +170,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/INTPY/B5_crosses_n_zeros/crosses_n_zeros" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/INTPY/B3_Conditions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Git\PycharmProjects\INTPY\B5_crosses_n_zeros\notes_on_crosses_zeros.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="play" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PycharmProjects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/INTPY/B5_crosses_n_zeros" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/INTPY/B5_crosses_n_zeros/play.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/INTPY/B3_Conditions/tests4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,11 +185,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main (2)" />
-        <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.play" />
-        <item itemvalue="Python.notes_on_crosses_zeros" />
-        <item itemvalue="Python.main" />
+        <item itemvalue="Python.tests4" />
+        <item itemvalue="Python.test5" />
+        <item itemvalue="Python.blank1" />
+        <item itemvalue="Python.hello" />
+        <item itemvalue="Python.blank" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673898315927</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Мои учебно-тренировочные файлы по курсу Интенсив Python">
+      <created>1674239004192</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1674239004192</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
