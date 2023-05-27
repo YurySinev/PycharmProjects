@@ -4,21 +4,23 @@
 # Для реализации такого алгоритма может быть полезным создание
 # словаря, в котором закрывающая скобка — ключ, открывающая — значение.
 
-pars = {")": "(", "]": "["}
+pars = {")": "(", "]": "[", "}": "{"}
 
 
 def par_checker_mod(string):
     stack = []
 
     for s in string:
-        if s in pars.values(): :
-        stack.append(s)
-    elif s in pars.keys()
-    if len(stack) > 0 and stack[-1] == pars[s]:
-        stack.pop()
-    else:
-        return False
+        if s in pars.values():
+            stack.append(s)
+        elif s in pars.keys():
+            if len(stack) > 0 and stack[-1] == pars[s]:
+                stack.pop()
+            else:
+                return False
 
     return len(stack) == 0
 
-
+print(par_checker_mod("Я) который {пишу} это (не буду продолжать [ничего] говорить)"))
+print(par_checker_mod(
+    "Напишем ((((какую-нибудь ((фразу с разными скобками. {Потом проверим, правильно} ли) [отрабатывает] наша))))) (функция)"))

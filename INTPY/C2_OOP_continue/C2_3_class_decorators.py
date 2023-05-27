@@ -113,7 +113,7 @@ class ParentClass:
 
     @classmethod
     def method(cls, arg):
-        print("%s classmethod. %d" % (cls.__name__, arg))
+        print(f"{cls.__name__} classmethod. {arg}")
 
     @classmethod
     def call_original_method(cls):

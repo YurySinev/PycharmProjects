@@ -13,8 +13,10 @@
 # razdvatri         Вы ввели неправильное число     Выход из программы
 
 
+inp = input("Введите число\t")
+
 try:
-    number = int(input("Введите число\t"))
+    number = int(inp)
     print(number)
 except ValueError as e:
     print("Вы ввели неправильное число")

@@ -36,7 +36,7 @@ class Rectangle:
 
 # Создадим ещё отдельный файл под названием testRectangle.py для того, чтобы
 # реализовать наследование. Причём обязательно в той папке, где находится
-# rectangle.py (в нашем случае это папка practice_C1).
+# figures.py (в нашем случае это папка practice_C1).
 
 # from rectangle import Rectangle
 

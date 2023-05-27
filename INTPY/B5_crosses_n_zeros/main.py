@@ -7,7 +7,7 @@ from check_win import check_win
 greeting()
 
 count = 0
-while True:2
+while True:
     count += 1
     playground()
     if count % 2 == 1:

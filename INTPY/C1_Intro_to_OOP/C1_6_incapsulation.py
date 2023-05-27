@@ -22,8 +22,9 @@ class Product:
 # Мы рассмотрим исключения позже в течение курса. При этом, чтобы вызвать исполнение
 # метода, передавать self уже не нужно:
 
-eggs = Product("eggs", "food", 5)
-print(eggs.is_available())
+if __name__ == '__main__':
+    eggs = Product("eggs", "food", 5)
+    print(eggs.is_available())
 
 
 # Вывод:
@@ -69,11 +70,12 @@ events = [
 # с помощью конструктора, как мы уже делали. А чтобы убедиться, что
 # объект создаётся, выведем на печать какой-нибудь из атрибутов:
 
-for event in events:
-    event_obj = Event(timestamp=event.get("timestamp"),
+if __name__ == "__main__":
+    for event in events:
+        event_obj = Event(timestamp=event.get("timestamp"),
                       event_type=event.get("type"),
                       session_id=event.get("session_id"))
-    print(event_obj.timestamp)
+        print(event_obj.timestamp)
 
 
 # Вывод:
@@ -111,11 +113,11 @@ class Event:
 # После этого мы скрыли реализацию логики от пользователя — то есть
 # нам уже неважно, как это работает, мы знаем, что можем подать на вход
 # словарь с нужными ключами, и всё будет работать само.
-
-for event in events:
-    event_obj = Event()
-    event_obj.init_from_dict(event)
-    print(event_obj.timestamp)
+if __name__ == '__main__':
+    for event in events:
+        event_obj = Event()
+        event_obj.init_from_dict(event)
+        print(event_obj.timestamp)
 
 
 # Вывод:
@@ -159,12 +161,12 @@ events = [
         "session_id": "@:NynteeXG:MYlskrqZbcmXNSFEJaZIsNVGeDLLpmct",
     },
 ]
-
-for event in events:
-    event_obj = Event(timestamp=event.get("timestamp"),
-                      event_type=event.get("type"),
-                      session_id=event.get("session_id"))
-    print(event_obj.timestamp)
+if __name__ == '__main__':
+    for event in events:
+        event_obj = Event(timestamp=event.get("timestamp"),
+                          event_type=event.get("type"),
+                          session_id=event.get("session_id"))
+        print(event_obj.timestamp)
 
 
 # Давайте перед тем, как приступим к работе с наследованием,
@@ -187,10 +189,10 @@ class Human:
     def __init__(self, age=4):
         self.age = age
 
-
-h = Human()
-h.age = 15  # (Так делать лучше не стоит, если вы хотите когда-нибудь найти работу)
-print(h.age)  # и так тоже
+if __name__ == '__main__':
+    h = Human()
+    h.age = 15  # (Так делать лучше не стоит, если вы хотите когда-нибудь найти работу)
+    print(h.age)  # и так тоже
 
 
 # """
@@ -221,10 +223,10 @@ class Human:
         if age > 0 and isinstance(age, int):
             self.age = age
 
-
-h = Human()
-h.set_age(15)
-print(h.get_age())
+if __name__ == '__main__':
+    h = Human()
+    h.set_age(15)
+    print(h.get_age())
 
 # Здесь мы уже контролируем обращение к полям класса.
 # Мы добавили специальные методы: геттеры и сеттеры.

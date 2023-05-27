@@ -26,3 +26,4 @@ if __name__ == "__main__":
     print(cat_.get_name(), cat_.get_gender(), cat_.get_age())
     cat_.color = "белая и пушистая"
     print(cat_.color)
+

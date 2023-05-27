@@ -18,5 +18,6 @@ def par_checker(string):
     # значит возвращаем True, иначе - False
     return len(stack) == 0
 
+
 if __name__ == "__main__":
-    print(par_checker("Я (который пишу это) не буду (продолжать) ничего говорить"))
+    print(par_checker("Я (который пишу это) не (буду (продолжать) ничего) говорить"))
